@@ -79,7 +79,7 @@ var CollectionFramework =function() {
 
 		//access the elements at the specific index of each sub array and zip to form a finalZippedArr
 		for (var i=0; i<longestArrSize; i++){
-		  singleZippedEle = []
+		  singleZippedEle = [];
 		  for (var j=0; j<argumentsArray.length; j++){
 		   	singleZippedEle.push(argumentsArray[j][i]);
 		  }
